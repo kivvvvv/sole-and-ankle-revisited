@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components/macro';
+import { createGlobalStyle } from "styled-components/macro";
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -71,6 +71,20 @@ html {
     Silence the warning about missing Reach Dialog styles
   */
   --reach-dialog: 1;
+  
+  --color-white: hsl(0, 0%, 100%);
+  --color-gray-100: hsl(185, 5%, 95%);
+  --color-gray-300: hsl(190, 5%, 80%);
+  --color-gray-500: hsl(196, 4%, 60%);
+  --color-gray-700: hsl(220, 5%, 40%);
+  --color-gray-900: hsl(220, 3%, 20%);
+  --color-primary: hsl(340, 65%, 47%);
+  --color-secondary: hsl(240, 60%, 63%);
+  --color-dialog-overlay: hsl(220, 6%, 40%, 0.8);
+  
+  --font-normal: 500;
+  --font-medium: 600;
+  --font-bold: 800;
 }
 
 html, body, #root {

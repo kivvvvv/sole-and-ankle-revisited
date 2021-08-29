@@ -1,1 +1,1 @@
-export { default } from './ShoeIndex';
+export { default, Header as ShoeIndexHeader } from "./ShoeIndex";
